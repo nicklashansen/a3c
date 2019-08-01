@@ -24,8 +24,9 @@ LunarLander
 
 ### Additional experiments
 
-Implementation also includes code for the CarRacing and Atari environments (both ConvNets and pre-processing), but those require significantly more resources to converge to a nice solution and are thus not included here.
-It is possible to extend A3C to continuous action spaces. For more information on that, visit https://github.com/dgriff777/a3c_continuous.
+Implementation also includes code for the CarRacing and Atari environments (ConvNets and pre-processing), but those require significantly more resources to converge to a nice solution and are thus not included here.
+
+It is also possible to extend A3C to continuous action spaces. For more information on that, visit https://github.com/dgriff777/a3c_continuous.
 
 ### Questions?
 
