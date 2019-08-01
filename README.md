@@ -11,12 +11,15 @@ problem by introducing an entropy-term to the loss function, which is discussed 
 ### Experiments
 
 CartPole
+
 ![CartPole](https://i.imgur.com/B3t0Gjh.gif)
 
 MountainCar
+
 ![MountainCar](https://i.imgur.com/UICkgp0.gif)
 
 LunarLander
+
 ![LunarLander](https://i.imgur.com/1JkUazV.gif)
 
 ### Additional experiments
