@@ -28,7 +28,15 @@ Implementation also includes code for the CarRacing and Atari environments (Conv
 
 It is also possible to extend A3C to continuous action spaces. For more information on that, visit https://github.com/dgriff777/a3c_continuous.
 
+### Results
+
+We investigated the impact of exploration by an added entropy term to the loss function and found that it improves exploration substantially for the MountainCar problem:
+
+![Exploration](https://i.imgur.com/79cUyvq.png)
+
+See our paper/report for details as well as more experiments.
+
 ### Questions?
 
 You are very welcome to read our paper/report for more information and you are also free to inspect and use the code in our repository.
-If you have any questions that are left unanswered, you can contact me on the following email: **hello@nicklashansen.com**.
+If you have any questions that are left unanswered, you can contact me on the following email: hello@nicklashansen.com.
