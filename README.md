@@ -1,6 +1,6 @@
 # Asynchronous Advantage Actor-Critic (A3C) using Generalized Advantage Estimation (PyTorch)
 
-### Pre-requisites
+### Recommended prerequisites
 
 If you're unfamiliar with deep reinforcement learning, check out this survey for a quick overview: [A Brief Survey of Deep Reinforcement Learning](https://arxiv.org/abs/1708.05866). If you're unfamiliar with reinforcement learning in general, refer to this free book on the subject: [Reinforcement Learning: An Introduction](http://www.incompleteideas.net/book/the-book.html) by Richard S. Sutton & Andrew G. Barto.
 
