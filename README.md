@@ -9,7 +9,7 @@ A3C utilizes distributed learning where a number of workers interact with the en
 distributed learning is that it allows for parallel generation of multiple rollouts, which often is a performance bottleneck in
 training of RL systems.
 
-[!Paradigm](https://i.imgur.com/a5hiab6.png)
+![Paradigm](https://i.imgur.com/a5hiab6.png)
 
 As rollouts are generated on-policy, however, it is likely that all trajectories will be similar as action probabilities gradually become near-zero for all but one action in the discrete case, which ultimately limits exploration. A3C addresses this
 problem by introducing an entropy-term to the loss function, which is discussed in section 2. We extend the A3C by replacing the advantage estimator used in (Minh, 2016) by the Generalized Advantage Estimate (GAE) as proposed by (Schulman, 2015), and evaluate the algorithm on a number of environments.
@@ -18,7 +18,7 @@ problem by introducing an entropy-term to the loss function, which is discussed 
 
 We conducted experiments on a number of environments of varying difficulty. The general network architecture was fixed throughout the experiments and weight-sharing between the actor and the critic was used to speed up training. The figure below illustrates the two architectures that were used for non-image and image-based experiments, respectively:
 
-[!network](https://i.imgur.com/EJgp6A3.png)
+![network](https://i.imgur.com/EJgp6A3.png)
 
 And here's a few GIFs of the solved environments:
 
